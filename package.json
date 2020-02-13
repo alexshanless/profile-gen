@@ -1,0 +1,29 @@
+{
+  "name": "profile-gen",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexshanless/profile-gen.git"
+  },
+  "keywords": [
+    "dev",
+    "profile",
+    "generator"
+  ],
+  "author": "Alex Bilba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexshanless/profile-gen/issues"
+  },
+  "homepage": "https://github.com/alexshanless/profile-gen#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "electron-html-to": "^2.6.0",
+    "inquirer": "^7.0.4"
+  }
+}
