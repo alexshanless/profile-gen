@@ -4,6 +4,16 @@ const inquirer = require("inquirer");
 const convertFactory = require('electron-html-to');
 
 const questions = [
+    {
+        message: 'What is your github username?',
+        name: 'username',
+    },
+    {
+        message: 'What is your favorite color',
+        name: 'color',
+        type: 'list',
+        choices: ['green', 'blue', 'pink', 'red'],
+    }
 
 ];
 
